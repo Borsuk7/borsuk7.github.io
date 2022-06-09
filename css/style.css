@@ -9,6 +9,19 @@ body {
     overflow-x: hidden;
 }
 
+.navbar-nav {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.main-wrapper {
+    background-color: #a5a7a7;
+    max-width: 1200px;
+    margin: auto;
+}
+
 ul {
     list-style: none;
 }

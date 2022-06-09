@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'PT Serif Caption', sans-serif;
-    background: rgb(222, 202, 177);
+    background: rgb(201, 201, 201);
     color: black;
     overflow-x: hidden;
 }
@@ -58,14 +58,14 @@ a {
 }
 
 a:hover {
-    color: red !important;
+    color: rgb(10, 0, 66) !important;
 }
 
 
 /* Navbar */
 .navbar {
     position: relative;
-    background: #dbdbdb;
+    background: #ffffff;
 }
 
 .navbar-collapse {
@@ -146,7 +146,7 @@ a:hover {
 /* Footer */
 .footer-basic {
     padding: 40px 0;
-    background-color: #c9c4c4;
+    background-color: #ffffff;
     color: #4b4c4d;
 }
 
@@ -221,14 +221,14 @@ a:hover {
 }
 
 .dbox p a {
-    color: #21ab43;
+    color: #2136ab;
 }
 
 .dbox .icon {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #21ab43;
+    background: #2136ab;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -290,15 +290,15 @@ a:hover {
 }
 
 .btn.btn-primary {
-    background: #21ab43 !important;
-    border-color: #21ab43 !important;
+    background: #2136ab !important;
+    border-color: #2136ab !important;
     color: #fff;
 }
 
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-    border-color: #1b8034 !important;
-    background: #1b8034 !important;
+    border-color: #102496 !important;
+    background: #102496 !important;
 }
 
 .no-gutters {

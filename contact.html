@@ -39,9 +39,6 @@
             <!-- Navbar Start -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
-                    <a class="navbar-brand" href="contact.html">
-                        <img src="img/contact-header.png" width="50" alt="Хедер картинка">
-                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -60,10 +57,7 @@
                                 <a class="nav-link" href="work.html">Досвід роботи</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="hobby.html">Хобі</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Контакти</a>
+                                <a class="nav-link" href="contact.html">Зв'язок</a>
                             </li>
 
                         </ul>
@@ -82,14 +76,59 @@
                 <div class="row justify-content-center">
                     <div class="col-md-12">
                         <div class="wrapper">
-                            <div class="row mb-5">
+                            <div class="row d-flex justify-content-center no-gutters">
+                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                    <h3 class="mb-4">Напишіть мені</h3>
+                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="name">Повне ім'я</label>
+                                                    <input type="text" class="form-control" name="name" id="name"
+                                                        placeholder="Ім'я">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="email">Електронна пошта</label>
+                                                    <input type="email" class="form-control" name="email" id="email"
+                                                        placeholder="petro.solomchak.7@gmail.com">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="subject">Тема</label>
+                                                    <input type="text" class="form-control" name="subject" id="subject"
+                                                        placeholder="Тема">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="#">Повідомлення</label>
+                                                    <textarea name="message" class="form-control" id="message" cols="30"
+                                                        rows="4" placeholder="Повідомлення"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="submit" value="Надіслати" class="btn btn-primary">
+                                                    <div class="submitting"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row mb-5 d-flex justify-content-around">
                                 <div class="col-md-3">
                                     <div class="dbox w-100 text-center">
                                         <div class="icon d-flex align-items-center justify-content-center">
                                             <span class="fa fa-map-marker"></span>
                                         </div>
                                         <div class="text">
-                                            <p><span><b>Адреса:</b></span> вулиця Шевченка 11а, Львів, 81100
+                                            <p>
+                                                <span><b>Адреса:</b></span>
+                                                Україна, Львів
                                             </p>
                                         </div>
                                     </div>
@@ -100,8 +139,10 @@
                                             <span class="fa fa-phone"></span>
                                         </div>
                                         <div class="text">
-                                            <p><span><b>Мобільний:</b></span> <a href="tel://+380931687575">+380 93 168
-                                                    7575</a></p>
+                                            <p>
+                                                <span><b>Мобільний:</b></span>
+                                                <a href="tel://+380680258665">+380 68 025 8665</a>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -111,70 +152,12 @@
                                             <span class="fa fa-paper-plane"></span>
                                         </div>
                                         <div class="text">
-                                            <p><span><b>Електронна пошта:</b></span> <a
-                                                    href="mailto:markopollo789@gmail.com">markopollo789@gmail.com</a>
+                                            <p>
+                                                <span><b>Електронна пошта:</b></span>
+                                                <a href="petro.solomchak.7.com">petro.solomchak.7@gmail.com</a>
                                             </p>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="dbox w-100 text-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="fa fa-globe"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><span><b>Вебсайт:</b></span> <a
-                                                    href="http://bohdanmarko.byethost15.com/">mywebsite.com</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row no-gutters">
-                                <div class="col-md-7">
-                                    <div class="contact-wrap w-100 p-md-5 p-4">
-                                        <h3 class="mb-4">Сконтактуйтесь зі мною</h3>
-                                        <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="label" for="name">Повне ім'я</label>
-                                                        <input type="text" class="form-control" name="name" id="name"
-                                                            placeholder="Ім'я Прізвище">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="label" for="email">Електронна пошта</label>
-                                                        <input type="email" class="form-control" name="email" id="email"
-                                                            placeholder="markopollo789@gmail.com">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <label class="label" for="subject">Тема</label>
-                                                        <input type="text" class="form-control" name="subject"
-                                                            id="subject" placeholder="Тема">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <label class="label" for="#">Повідомлення</label>
-                                                        <textarea name="message" class="form-control" id="message"
-                                                            cols="30" rows="4" placeholder="Повідомлення"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <input type="submit" value="Надіслати" class="btn btn-primary">
-                                                        <div class="submitting"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-md-5 d-flex">
-                                    <img src="img/contact-main.jfif" width="100%" alt="Головна картинка">
                                 </div>
                             </div>
                         </div>
@@ -188,27 +171,20 @@
         <div class="footer-basic">
             <footer>
                 <div class="social">
-                    <a href="https://github.com/macdan789">
+                    <a href="https://github.com/">
                         <i class="icon ion-social-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/bohdan-marko-7489a8201/">
+                    <a href="https://www.linkedin.com/">
                         <i class="icon ion-social-linkedin"></i>
                     </a>
-                    <a href="https://twitter.com/bodya_marek">
+                    <a href="https://twitter.com/">
                         <i class="icon ion-social-twitter"></i>
                     </a>
-                    <a href="https://www.facebook.com/bodya.marko.1">
+                    <a href="https://www.facebook.com/">
                         <i class="icon ion-social-facebook"></i>
                     </a>
                 </div>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="index.html">Головна</a></li>
-                    <li class="list-inline-item"><a href="about.html">Про мене</a></li>
-                    <li class="list-inline-item"><a href="work.html">Досвід роботи</a></li>
-                    <li class="list-inline-item"><a href="hobby.html">Хобі</a></li>
-                    <li class="list-inline-item"><a href="contact.html">Контакти</a></li>
-                </ul>
-                <p class="copyright">Bohdan Marko © 2022</p>
+                <p class="copyright">Соломчак Петро © 2022</p>
             </footer>
         </div>
         <!-- Footer end -->
